@@ -1,5 +1,5 @@
 # smartmeter->reader()
-um den Landis&amp;Gyr E450 Smartmeter der Wiener-Netze mit einem ESP8266 auszulesen.  
+um den Landis&amp;Gyr E450 Smartmeter der Wiener-Netze mit einem ESP8266 auszulesen und die Daten an einen MQTT-Broker zu übergeben.  
 
 ## Vorraussetzungen  
 1x TTL IR(Infrarot) Lesekopf [ich verwende diesen](https://bayha-electronics.de/produkt/bausatz-ttl-irinfrarot-lese-schreibkopf/)  
@@ -18,5 +18,15 @@ Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.
 |TX   |RX   |  
 |3.3V |VCC  |  
 |GND  |GND  |  
+
+Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den Key.  
+
+Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN.
+mit dem WLAN verbinden und unter der URL http://192.168.4.1 sein WLAN konfigurieren.
+
+Nach einen erneuten Neustart des ESP einfach die von deinem Router vergebene IP-Adresse aufrufen um die Konfiguration ab zu schliessen.  
+
+
+
 
 
