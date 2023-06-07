@@ -22,7 +22,8 @@ Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.
 Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den Key.  
 
 Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN.
-mit dem WLAN verbinden und unter der URL http://192.168.4.1 sein WLAN konfigurieren.
+mit dem WLAN verbinden und unter der URL http://192.168.4.1 sein WLAN konfigurieren.  
+Sollte sich der ESP nicht mit dem WLAN verbinden koennen, sollte er nach einer gewissen Zeit wieder unter http://192.168.4.1 erreichbar sein.  
 
 Nach einen erneuten Neustart des ESP einfach die von deinem Router vergebene IP-Adresse aufrufen um die Konfiguration ab zu schliessen.  
 
