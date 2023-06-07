@@ -1,5 +1,6 @@
 # smartmeter->reader()
 um den Landis&amp;Gyr E450 Smartmeter der Wiener-Netze mit einem ESP8266 auszulesen und die Daten an einen MQTT-Broker zu übergeben.  
+(sollte es jemand mit einem anderen Zaehler versuchen und Erfolg haben, dann lasst es mich bitte wissen :))
 
 ## Vorraussetzungen  
 1x TTL IR(Infrarot) Lesekopf [ich verwende diesen](https://bayha-electronics.de/produkt/bausatz-ttl-irinfrarot-lese-schreibkopf/)  
@@ -20,6 +21,7 @@ Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.
 |GND  |GND  |  
 
 Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den dabei hinterlegten Key.  
+(es ist nicht erforderlich einen PIN mit der Taschenlampe rein zu blinseln wie bei manch anderen Zaehlern)  
 
 Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN.
 mit dem WLAN verbinden und unter der URL http://192.168.4.1 sein WLAN konfigurieren.  
