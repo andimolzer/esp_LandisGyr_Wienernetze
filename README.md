@@ -27,7 +27,7 @@ Sollte sich der ESP nicht mit dem WLAN verbinden koennen, sollte er nach einer g
 
 Nach einen erneuten Neustart des ESP einfach die von deinem Router vergebene IP-Adresse aufrufen um die Konfiguration ab zu schliessen.  
 
-![setup](https://avatars2.githubusercontent.com/u/53957681?s=460&u=68dab87193fe05690a01e1cf6226a8069ca4ec75&v=4)
+![setup](https://github.com/andimolzer/smartmeter--reader-/blob/main/setup.PNG)
 
 
 
