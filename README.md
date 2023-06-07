@@ -19,7 +19,7 @@ Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.
 |3.3V |VCC  |  
 |GND  |GND  |  
 
-Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den Key.  
+Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den dabei hinterlegten Key.  
 
 Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN.
 mit dem WLAN verbinden und unter der URL http://192.168.4.1 sein WLAN konfigurieren.  
@@ -27,9 +27,9 @@ Sollte sich der ESP nicht mit dem WLAN verbinden koennen, sollte er nach einer g
 
 Nach einen erneuten Neustart des ESP einfach die von deinem Router vergebene IP-Adresse aufrufen um die Konfiguration ab zu schliessen.  
 
-![setup](https://github.com/andimolzer/smartmeter--reader-/blob/main/setup.PNG)
+![setup](https://github.com/andimolzer/smartmeter--reader-/blob/main/setup.PNG)  
 
-
-
+Ueber die URL http://xxx.xxx.xxx.xxx:8080/webota koennen eventuelle Updates geflasht werden.  
+![OTA](https://github.com/andimolzer/smartmeter--reader-/blob/main/ota.png)
 
 
