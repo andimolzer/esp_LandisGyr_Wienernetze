@@ -28,9 +28,16 @@ Sollte sich der ESP nicht mit dem WLAN verbinden koennen, erstellt er nach einer
 
 Nach einen erneuten Neustart des ESP einfach die von deinem Router vergebene IP-Adresse aufrufen um die Konfiguration ab zu schliessen.  
 
-![setup](https://github.com/andimolzer/smartmeter--reader-/blob/main/setup.PNG)  
+![setup](https://github.com/andimolzer/esp_LandisGyr_Wienernetze/blob/main/setup.PNG)  
 
 Ueber die URL http://xxx.xxx.xxx.xxx:8080/webota koennen eventuelle Updates geflasht werden.  
-![OTA](https://github.com/andimolzer/smartmeter--reader-/blob/main/ota.png)
+![OTA](https://github.com/andimolzer/esp_LandisGyr_Wienernetze/blob/main/ota.png)  
 
-
+Im Endeffekt sieht das z.B.: im MQTT-Adapter von IOBroker dann so aus   
+  
+![IOBROKER](https://github.com/andimolzer/esp_LandisGyr_Wienernetze/blob/main/iobroker.PNG)  
+(1_7_0= aktueller Stromverbr., 1_8_0= aktueller Zaehlerstand, 2_7_0= aktuelle Einspeisung, 2_8_0= Einspeisung Zaehlerstand)  
+  
+  woraus man sich dann z.b. mit Grafana soetwas basteln kann  
+  
+![grafana](https://github.com/andimolzer/esp_LandisGyr_Wienernetze/blob/main/grafana.PNG)  
