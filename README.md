@@ -3,12 +3,11 @@ um den Landis&amp;Gyr E450 Smartmeter der Wiener-Netze mit einem ESP8266 auszule
 (sollte es jemand mit einem anderen Zaehler versuchen und Erfolg haben, dann lasst es mich bitte wissen :))
 
 ## Vorraussetzungen  
-1x TTL IR(Infrarot) Lesekopf [ich verwende diesen](https://bayha-electronics.de/produkt/bausatz-ttl-irinfrarot-lese-schreibkopf/)  
+1x TTL IR(Infrarot) Lesekopf, [ich verwende diesen](https://bayha-electronics.de/produkt/bausatz-ttl-irinfrarot-lese-schreibkopf/)  
 1x NodeMcu oder aehnliches mit mehr als 1 MiB Speicher falls einmal OTA verwendet werden sollte  
-4x Jumperkabel  
 
 wer es kompakter will, [kann auch diesen](https://bayha-electronics.de/produkt/tasmota-wifi-lesekopf/) verwenden.  
-Nachteil -> schwieriger zu flashen und zu wenig Speicher für OTA  
+Nachteil -> umstaendlich zu flashen und zu wenig Speicher für OTA  
 
 Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.  
 
@@ -23,9 +22,9 @@ Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.
 Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den dabei hinterlegten Key.  
 (es ist nicht erforderlich einen PIN mit der Taschenlampe rein zu blinseln wie bei manch anderen Zaehlern)  
 
-Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN.
-mit dem WLAN verbinden und unter der URL http://192.168.4.1 sein WLAN konfigurieren.  
-Sollte sich der ESP nicht mit dem WLAN verbinden koennen, sollte er nach einer gewissen Zeit wieder unter http://192.168.4.1 erreichbar sein.  
+Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN (ESPxxxxx).  
+Mit dem WLAN verbinden und unter http://192.168.4.1 sein eigenes WLAN konfigurieren.  
+Sollte sich der ESP nicht mit dem WLAN verbinden koennen, erstellt er nach einer gewissen Zeit wieder einen AP und ist wieder unter http://192.168.4.1 erreichbar.    
 
 Nach einen erneuten Neustart des ESP einfach die von deinem Router vergebene IP-Adresse aufrufen um die Konfiguration ab zu schliessen.  
 
