@@ -2,6 +2,8 @@
 um den Landis&amp;Gyr E450 Smartmeter der Wiener-Netze mit einem ESP8266 auszulesen und die Daten an einen MQTT-Broker zu übergeben.  
 (sollte es jemand mit einem anderen Zaehler versuchen und Erfolg haben, dann lasst es mich bitte wissen :))
 
+basierend auf den [Quellcode](https://github.com/aldadic/esp32-smartmeter-reader) von aldadic.  
+
 ## Vorraussetzungen  
 1x TTL IR(Infrarot) Lesekopf, [ich verwende diesen](https://bayha-electronics.de/produkt/bausatz-ttl-irinfrarot-lese-schreibkopf/)  
 1x NodeMcu oder aehnliches mit mehr als 1 MiB Speicher falls einmal OTA verwendet werden sollte  
@@ -10,6 +12,7 @@ wer es kompakter will, [kann auch diesen](https://bayha-electronics.de/produkt/t
 Nachteil -> umstaendlich zu flashen und zu wenig Speicher für OTA  
 
 Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.  
+[Flashingtool](https://github.com/Jason2866/ESP_Flasher/releases)
 
 ## Anschluss  
 |ESP  |TTL  |  
