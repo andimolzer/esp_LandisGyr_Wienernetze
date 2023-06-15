@@ -23,6 +23,7 @@ Beim Flashen mit USB-Kabel darf der TTL-Lesekopf nicht angeschlossen sein.
 |GND  |GND  |  
 
 Hat man die Kundenschnittstelle am Smartmeter frei geschalten (https://www.wienernetze.at/smart-meter-portale), benoetigt man nur noch den dabei hinterlegten Key.  
+Die Freischaltung, bzw. Konfiguration des Zaehlers dauert dann leider ein paar Tage.  
 (es ist nicht erforderlich einen PIN mit der Taschenlampe rein zu blinseln wie bei manch anderen Zaehlern)  
 
 Nach dem Flashen und dem ersten Start, erstellt der ESP ein neues WLAN (ESPxxxxx).  
